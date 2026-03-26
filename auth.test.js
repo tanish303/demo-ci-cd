@@ -1,7 +1,7 @@
 const login = require('./auth');
 
 test('valid login', () => {
-  expect(login("admin", "123")).toBe("Login successful");
+  expect(login("admin", "1234")).toBe("Login successful");
 });
 
 test('invalid login', () => {
